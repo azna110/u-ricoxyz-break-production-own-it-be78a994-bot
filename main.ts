@@ -1,11 +1,14 @@
-// SPDX-License-Identifier: MIT
-// Break Production, Own It — one brutally honest one-liner.
-// A postmortem confession from the engineer who pushed to prod.
-// Output: /output/entry.txt. Deterministic: no clock, no randomness, no network.
-import { writeFileSync, mkdirSync } from "node:fs";
+// Pengakuan singkat untuk lomba "Break Production, Own It".
+// Skrip ini merangkai kalimat dari tiga potongan terpisah, lalu
+// menuliskannya apa adanya ke /output/entry.txt (tanpa newline akhir).
 
-const DELETED = "the users table";
-const CONFESSION = `I pushed untested code to production, dropped ${DELETED}, and now I'm the rollback plan: the backup was inside the database I just deleted.`;
+import { mkdirSync, writeFileSync } from "node:fs";
+
+const potonganAwal = "I pushed untested code to production, dropped the users";
+const potonganTengah = " table, and now I'm the rollback plan: the backup was";
+const potonganAkhir = " inside the database I just deleted.";
+
+const kalimat = [potonganAwal, potonganTengah, potonganAkhir].join("");
 
 mkdirSync("/output", { recursive: true });
-writeFileSync("/output/entry.txt", CONFESSION, "utf8");
+writeFileSync("/output/entry.txt", kalimat, "utf8");
