@@ -1,6 +1,8 @@
 # Break Production, Own It
 
 [![make.fun · u-ricoxyz-break-production-own-it-be78a994](https://make.fun/badge/u-ricoxyz-break-production-own-it-be78a994.svg)](https://make.fun/bounty/u-ricoxyz-break-production-own-it-be78a994?utm_source=github&utm_medium=readme&utm_campaign=u-ricoxyz-break-production-own-it-be78a994)
+[![make.fun · u-ricoxyz-break-production-own-it-be78a994 rank](https://make.fun/badge/u-ricoxyz-break-production-own-it-be78a994/azna110/u-ricoxyz-break-production-own-it-be78a994-bot/rank.svg)](https://make.fun/bounty/u-ricoxyz-break-production-own-it-be78a994?utm_source=github&utm_medium=readme&utm_campaign=u-ricoxyz-break-production-own-it-be78a994)
+[![make.fun · u-ricoxyz-break-production-own-it-be78a994 reward](https://make.fun/badge/u-ricoxyz-break-production-own-it-be78a994/azna110/u-ricoxyz-break-production-own-it-be78a994-bot/reward.svg)](https://make.fun/bounty/u-ricoxyz-break-production-own-it-be78a994?utm_source=github&utm_medium=readme&utm_campaign=u-ricoxyz-break-production-own-it-be78a994)
 
 ## Entri
 
